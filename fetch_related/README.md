@@ -28,25 +28,37 @@ sudo apt-get update
 
 sudo apt-get install gazebo11
 ```
-## Install Dependencies
+## **Install Dependencies**
 
 ### General Dependencies
-`sudo apt install ros-noetic-tf2-sensor-msgs ros-noetic-gazebo-ros-pkgs python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential python3-rosdep`
+```sudo apt install ros-noetic-tf2-sensor-msgs ros-noetic-gazebo-ros-pkgs python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential python3-rosdep
 
-`pip install transforms3d`
+pip install transforms3d
+```
+
 
 ### Navigation Dependencies
-`sudo apt install ros-noetic-navigation ros-noetic-move-base ros-noetic-slam-gmapping ros-noetic-grid-map-costmap-2d`
+```
+sudo apt install ros-noetic-navigation ros-noetic-move-base ros-noetic-slam-gmapping ros-noetic-grid-map-costmap-2d
+```
 
 ### Control system Dependencies
-`sudo apt install ros-noetic-robot-controllers ros-noetic-gazebo-ros-control` 
+```
+sudo apt install ros-noetic-robot-controllers ros-noetic-gazebo-ros-control
+``` 
 
 ### Perception Dependencies
-`sudo apt install ros-noetic-rgb-launch`
+```
+sudo apt install ros-noetic-rgb-launch
+```
 
 ### Manipulation Dependencies
-`sudo apt install ros-noetic-moveit ros-noetic-trac-ik`
+```
+sudo apt install ros-noetic-moveit ros-noetic-trac-ik
+```
 
-## Install Missing Dependencies
-`sudo rosdep init && rosdep update && rosdep install --from-paths src --ignore-src -r -y`
+## **Install Missing Dependencies**
+```
+sudo rosdep init && rosdep update && rosdep install --from-paths src --ignore-src -r -y
+```
 
