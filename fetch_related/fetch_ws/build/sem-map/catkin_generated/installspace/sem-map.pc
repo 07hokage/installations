@@ -1,0 +1,8 @@
+prefix=/home/saihaneesh/irvl/sem-exp/installations/fetch_related/fetch_ws/install
+
+Name: sem-map
+Description: Description of sem-map
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
