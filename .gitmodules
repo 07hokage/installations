@@ -1,10 +1,6 @@
 [submodule "fetch_related/fetch_ws/src/urdf_tutorial"]
 	path = fetch_related/fetch_ws/src/urdf_tutorial
 	url = https://github.com/ros/urdf_tutorial
-[submodule "fetch_related/fetch_ws/src/fetch_gazebo"]
-	path = fetch_related/fetch_ws/src/fetch_gazebo
-	url = https://github.com/fetchrobotics/fetch_gazebo.git
-	branch = gazebo11
 [submodule "fetch_related/fetch_ws/src/fetch_ros"]
 	path = fetch_related/fetch_ws/src/fetch_ros
 	url = https://github.com/fetchrobotics/fetch_ros.git
