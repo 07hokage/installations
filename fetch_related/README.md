@@ -1,4 +1,23 @@
-## Install ROS
+## 1. Running
+Please refer to Sections 2,3,4 for installation guidleines
+
+**1.1**  Launch house environment in the gazebo
+```
+roslaunch fetch_gazebo houseee.launch
+```
+**1.2**  Launch move base for navigation functionalities and mapping module.
+
+  If you wish to include depth image alongside LaserScan for mapping, 
+  ```
+  roslaunch fetch_gazebo mapping.launch
+  ```
+  If you wish to map using LaserScan data alone,
+  ```
+  roslaunch fetch_gazebo mapping2.launch
+  ```
+
+
+## 2.  Install ROS
 This code is tested on ros noetic version. Detailed installation instructions are found [here](http://wiki.ros.org/noetic/Installation/Ubuntu)
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -16,7 +35,7 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-## Install Gazebo
+## 3. Install Gazebo
 The compatible version for ros noetic is gazebo 11. Detailed installation instructions are found [here](https://classic.gazebosim.org/tutorials?tut=install_ubuntu&cat=install#Defaultinstallation:one-liner)
 
 ```
@@ -28,7 +47,7 @@ sudo apt-get update
 
 sudo apt-get install gazebo11
 ```
-## **Install Dependencies**
+## 4. **Install Dependencies**
 
 ### General Dependencies
 ```
