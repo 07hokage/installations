@@ -12,3 +12,7 @@
 	path = fetch_related/fetch_ws/src/aws-robomaker-small-house-world
 	url = https://github.com/07hokage/aws-robomaker-small-house-world.git
 	branch = simple
+[submodule "fetch_related/fetch_ws/src/fetch_gazebo"]
+	path = fetch_related/fetch_ws/src/fetch_gazebo
+	url = https://github.com/07hokage/fetch_gazebo.git
+	branch = gazebo11
