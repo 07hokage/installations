@@ -33,6 +33,8 @@ sudo apt-get install gazebo11
 ### General Dependencies
 ```
 sudo apt install ros-noetic-tf2-sensor-msgs ros-noetic-gazebo-ros-pkgs python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential python3-rosdep
+```
+```
 pip install transforms3d empy pyyaml defusedxml catkin_pkg rospkg
 ```
 
