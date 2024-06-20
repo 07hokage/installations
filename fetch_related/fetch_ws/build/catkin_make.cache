@@ -1,2 +1,0 @@
-m-explore/explore:m-explore/map_merge:sem-map
--DCATKIN_DEVEL_PREFIX=/home/saihaneesh/irvl/sem-exp/installations/fetch_related/fetch_ws/devel -DCMAKE_INSTALL_PREFIX=/home/saihaneesh/irvl/sem-exp/installations/fetch_related/fetch_ws/install -G Unix Makefiles

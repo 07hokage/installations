@@ -5,9 +5,6 @@
 	path = fetch_related/fetch_ws/src/fetch_ros
 	url = https://github.com/fetchrobotics/fetch_ros.git
 	branch = ros1
-[submodule "fetch_related/fetch_ws/src/m-explore"]
-	path = fetch_related/fetch_ws/src/m-explore
-	url = https://github.com/hrnr/m-explore.git
 [submodule "fetch_related/fetch_ws/src/aws-robomaker-small-house-world"]
 	path = fetch_related/fetch_ws/src/aws-robomaker-small-house-world
 	url = https://github.com/07hokage/aws-robomaker-small-house-world.git
