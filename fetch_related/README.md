@@ -15,6 +15,12 @@ roslaunch fetch_gazebo houseee.launch
   ```
   roslaunch fetch_gazebo mapping2.launch
   ```
+**1.3** Navigate the robot using keyboard
+  ```
+  rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+  ```
+
+
 
 
 ## 2.  Install ROS
@@ -60,7 +66,7 @@ pip install transforms3d empy pyyaml defusedxml catkin_pkg rospkg
 
 ### Navigation Dependencies
 ```
-sudo apt install ros-noetic-navigation ros-noetic-move-base ros-noetic-slam-gmapping ros-noetic-grid-map-costmap-2d
+sudo apt install ros-noetic-navigation ros-noetic-move-base ros-noetic-slam-gmapping ros-noetic-grid-map-costmap-2d ros-noetic-teleop-twist-joy
 ```
 
 ### Control system Dependencies
