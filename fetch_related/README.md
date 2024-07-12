@@ -3,7 +3,7 @@ Please refer to Sections 2,3,4 for installation guidleines
 
 **1.1**  Launch house environment in the gazebo
 ```
-roslaunch fetch_gazebo houseee.launch
+roslaunch fetch_gazebo housee.launch
 ```
 **1.2**  Launch move base for navigation functionalities and mapping module.
 
@@ -60,7 +60,7 @@ sudo apt-get install gazebo11
 sudo apt install ros-noetic-tf2-sensor-msgs ros-noetic-gazebo-ros-pkgs python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential python3-rosdep
 ```
 ```
-pip install transforms3d empy pyyaml defusedxml catkin_pkg rospkg
+pip install transforms3d empy pyyaml defusedxml catkin_pkg rospkg lxml
 ```
 
 
