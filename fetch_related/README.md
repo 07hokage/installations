@@ -5,6 +5,11 @@ Please refer to Sections 2,3,4 for installation guidleines
 ```
 roslaunch fetch_gazebo housee.launch
 ```
+Tuck the arm during navigation
+```
+cd fetch_ws/src/fetch_gazebo/fetch_gazebo/scripts
+python tuck_arm.py
+```
 **1.2**  Launch move base for navigation functionalities and mapping module.
 
   If you wish to include depth image alongside LaserScan for mapping, 
@@ -19,7 +24,30 @@ roslaunch fetch_gazebo housee.launch
   ```
   rosrun teleop_twist_keyboard teleop_twist_keyboard.py
   ```
-
+**1.4** Save the data
+The following scripts saves rgb, depth, odometry, camera pose, occupancy map
+```
+cd fetch_ws/src/fetch_gazebo/fetch_gazebo/scripts
+python save_data.py <time_interval>
+```
+**1.5** Save the final map
+The following script saves the map along with the .yaml file containing map parameters
+```
+cd fetch_ws/src/fetch_gazebo/fetch_gazebo/scripts
+savemap.sh <name>
+```
+**1.6**
+This scripts clears the data folders saved in the current folder.
+```
+cd fetch_ws/src/fetch_gazebo/fetch_gazebo/scripts
+clear_data.sh
+```
+**1.7**
+To send a point goal to the robot, run the following script
+```
+cd fetch_ws/src/fetch_gazebo/fetch_gazebo/scripts
+python navigate.py
+```
 
 
 
