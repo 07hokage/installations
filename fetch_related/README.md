@@ -117,3 +117,7 @@ sudo apt install ros-noetic-moveit ros-noetic-trac-ik
 sudo rosdep init && rosdep update && rosdep install --from-paths src --ignore-src -r -y
 ```
 
+## **If you want to test the data visualisation**
+```
+pip install opencv-python numpy Pillow tkinter
+```
