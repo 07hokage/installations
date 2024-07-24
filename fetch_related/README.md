@@ -79,7 +79,7 @@ wget https://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 
 sudo apt-get update
 
-sudo apt-get install gazebo11
+sudo apt-get install -y gazebo11
 ```
 ## 4. **Install Dependencies**
 
