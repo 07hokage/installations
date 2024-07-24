@@ -109,7 +109,7 @@ sudo apt install ros-noetic-rgbd-launch
 
 ### Manipulation Dependencies
 ```
-sudo apt install ros-noetic-moveit ros-noetic-trac-ik
+sudo apt install ros-noetic-moveit ros-noetic-trac-ik ros-noetic-moveit-python
 ```
 
 ## **Install Missing Dependencies**
