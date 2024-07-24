@@ -123,5 +123,5 @@ pip install opencv-python numpy Pillow tk
 ```
 
 ## **Known Issues:**
-AttributeError: module 'em' has no attribute 'RAW_OPT': [solution](https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1519)
+AttributeError: module 'em' has no attribute 'RAW_OPT': [solution](https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1519#issuecomment-2124599093)
 
