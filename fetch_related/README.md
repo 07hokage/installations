@@ -121,3 +121,7 @@ sudo rosdep init && rosdep update && rosdep install --from-paths src --ignore-sr
 ```
 pip install opencv-python numpy Pillow tk
 ```
+
+## **Known Issues:**
+AttributeError: module 'em' has no attribute 'RAW_OPT': [solution](https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1519)
+
