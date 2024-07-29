@@ -119,7 +119,7 @@ sudo rosdep init && rosdep update && rosdep install --from-paths src --ignore-sr
 
 ## **If you want to test the data visualisation**
 ```
-pip install opencv-python numpy Pillow tk
+pip install opencv-python numpy Pillow tk anytree
 ```
 
 ## **Known Issues:**
