@@ -27,25 +27,25 @@ python tuck_arm.py
 **1.4** Save the data
 The following scripts saves rgb, depth, odometry, camera pose, occupancy map
 ```
-cd fetch_ws/src/fetch_gazebo/fetch_gazebo/scripts
+cd ./src/fetch_gazebo/fetch_gazebo/scripts
 python save_data.py <time_interval>
 ```
 **1.5** Save the final map
 The following script saves the map along with the .yaml file containing map parameters
 ```
-cd fetch_ws/src/fetch_gazebo/fetch_gazebo/scripts
+cd ./src/fetch_gazebo/fetch_gazebo/scripts
 savemap.sh <name>
 ```
 **1.6**
 This scripts clears the data folders saved in the current folder.
 ```
-cd fetch_ws/src/fetch_gazebo/fetch_gazebo/scripts
+cd ./src/fetch_gazebo/fetch_gazebo/scripts
 clear_data.sh
 ```
 **1.7**
 To send a point goal to the robot, run the following script
 ```
-cd fetch_ws/src/fetch_gazebo/fetch_gazebo/scripts
+cd ./src/fetch_gazebo/fetch_gazebo/scripts
 python navigate.py
 ```
 
