@@ -94,7 +94,7 @@ pip install transforms3d empy==3.3.4 pyyaml defusedxml catkin_pkg rospkg lxml
 
 ### Navigation Dependencies
 ```
-sudo apt install ros-noetic-navigation ros-noetic-move-base ros-noetic-slam-gmapping ros-noetic-grid-map-costmap-2d ros-noetic-teleop-twist-joy
+sudo apt install ros-noetic-navigation ros-noetic-move-base ros-noetic-slam-gmapping ros-noetic-grid-map-costmap-2d ros-noetic-teleop-twist-joy ros-noetic-pointcloud-to-laserscan ros-noetic-rosbridge-server
 ```
 
 ### Control system Dependencies
