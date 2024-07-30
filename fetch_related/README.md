@@ -7,7 +7,7 @@ roslaunch fetch_gazebo housee.launch
 ```
 Tuck the arm during navigation
 ```
-cd fetch_ws/src/fetch_gazebo/fetch_gazebo/scripts
+cd ./src/fetch_gazebo/fetch_gazebo/scripts
 python tuck_arm.py
 ```
 **1.2**  Launch move base for navigation functionalities and mapping module.
