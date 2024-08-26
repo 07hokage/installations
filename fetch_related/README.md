@@ -24,25 +24,29 @@ python tuck_arm.py
   ```
   rosrun teleop_twist_keyboard teleop_twist_keyboard.py
   ```
-**1.4** Save the data
+**1.4** To run exploration
+```
+roslaunch explore_lite explore_n_save.launch
+```
+**1.5** Save the data
 The following scripts saves rgb, depth, odometry, camera pose, occupancy map
 ```
 cd ./src/fetch_gazebo/fetch_gazebo/scripts
 python save_data.py <time_interval>
 ```
-**1.5** Save the final map
+**1.6** Save the final map
 The following script saves the map along with the .yaml file containing map parameters
 ```
 cd ./src/fetch_gazebo/fetch_gazebo/scripts
 savemap.sh <name>
 ```
-**1.6**
+**1.7**
 This scripts clears the data folders saved in the current folder.
 ```
 cd ./src/fetch_gazebo/fetch_gazebo/scripts
 clear_data.sh
 ```
-**1.7**
+**1.8**
 To send a point goal to the robot, run the following script
 ```
 cd ./src/fetch_gazebo/fetch_gazebo/scripts
