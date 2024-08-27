@@ -1,7 +1,7 @@
 ## 1. Running
 Please refer to Sections 2,3,4 for installation guidleines
 
-**1.1**  Launch house environment in the gazebo
+> **1.1**  Launch house environment in the gazebo
 ```
 roslaunch fetch_gazebo housee.launch
 ```
@@ -10,7 +10,7 @@ Tuck the arm during navigation
 cd ./src/fetch_gazebo/fetch_gazebo/scripts
 python tuck_arm.py
 ```
-**1.2**  Launch move base for navigation functionalities and mapping module.
+> **1.2**  Launch move base for navigation functionalities and mapping module.
 
   If you wish to include depth image alongside LaserScan for mapping, 
   ```
@@ -20,33 +20,33 @@ python tuck_arm.py
   ```
   roslaunch fetch_gazebo mapping2.launch
   ```
-**1.3** Navigate the robot using keyboard
+> **1.3** Navigate the robot using keyboard
   ```
   rosrun teleop_twist_keyboard teleop_twist_keyboard.py
   ```
-**1.4** To run exploration
+> **1.4** To run exploration
 ```
 roslaunch explore_lite explore_n_save.launch
 ```
-**1.5** Save the data
+> **1.5** Save the data
 The following scripts saves rgb, depth, odometry, camera pose, occupancy map
 ```
 cd ./src/fetch_gazebo/fetch_gazebo/scripts
 python save_data.py <time_interval>
 ```
-**1.6** Save the final map
+> **1.6** Save the final map
 The following script saves the map along with the .yaml file containing map parameters
 ```
 cd ./src/fetch_gazebo/fetch_gazebo/scripts
 savemap.sh <name>
 ```
-**1.7**
+> **1.7**
 This scripts clears the data folders saved in the current folder.
 ```
 cd ./src/fetch_gazebo/fetch_gazebo/scripts
 clear_data.sh
 ```
-**1.8**
+> **1.8**
 To send a point goal to the robot, run the following script
 ```
 cd ./src/fetch_gazebo/fetch_gazebo/scripts
@@ -87,7 +87,7 @@ sudo apt-get install -y gazebo11
 ```
 ## 4. **Install Dependencies**
 
-### General Dependencies
+> ### General Dependencies
 ```
 sudo apt install ros-noetic-tf2-sensor-msgs ros-noetic-gazebo-ros-pkgs python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential python3-rosdep
 ```
@@ -96,32 +96,32 @@ pip install transforms3d empy==3.3.4 pyyaml defusedxml catkin_pkg rospkg lxml
 ```
 
 
-### Navigation Dependencies
+> ### Navigation Dependencies
 ```
 sudo apt install ros-noetic-navigation ros-noetic-move-base ros-noetic-slam-gmapping ros-noetic-grid-map-costmap-2d ros-noetic-teleop-twist-joy ros-noetic-pointcloud-to-laserscan ros-noetic-rosbridge-server
 ```
 
-### Control system Dependencies
+> ### Control system Dependencies
 ```
 sudo apt install ros-noetic-robot-controllers ros-noetic-gazebo-ros-control
 ``` 
 
-### Perception Dependencies
+> ### Perception Dependencies
 ```
 sudo apt install ros-noetic-rgbd-launch
 ```
 
-### Manipulation Dependencies
+> ### Manipulation Dependencies
 ```
 sudo apt install ros-noetic-moveit ros-noetic-trac-ik ros-noetic-moveit-python
 ```
 
-## **Install Missing Dependencies**
+> ## **Install Missing Dependencies**
 ```
 sudo rosdep init && rosdep update && rosdep install --from-paths src --ignore-src -r -y
 ```
 
-## **If you want to test the data visualisation**
+> ## **If you want to test the data visualisation**
 ```
 pip install opencv-python numpy Pillow tk anytree
 ```
@@ -131,7 +131,7 @@ pip install opencv-python numpy Pillow tk anytree
 cd fetch_ws
 catkin_make
 ```
-If the build doesn't conisder python3 by default, build with the following command
+> If the build doesn't conisder python3 by default, build with the following command
 ```
 catkin_make DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
