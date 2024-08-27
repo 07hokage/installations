@@ -130,6 +130,7 @@ pip install opencv-python numpy Pillow tk anytree
 ```
 cd fetch_ws
 catkin_make
+source devel/setup.bash
 ```
 > If the build doesn't conisder python3 by default, build with the following command
 ```
