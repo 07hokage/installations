@@ -134,7 +134,7 @@ source devel/setup.bash
 ```
 > If the build doesn't conisder python3 by default, build with the following command
 ```
-catkin_make DPYTHON_EXECUTABLE=/usr/bin/python3
+catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
 
 ## 6. **Known Issues:**
