@@ -92,7 +92,7 @@ sudo apt-get install -y gazebo11
 sudo apt install ros-noetic-tf2-sensor-msgs ros-noetic-gazebo-ros-pkgs python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential python3-rosdep
 ```
 ```
-pip install transforms3d empy==3.3.4 pyyaml defusedxml catkin_pkg rospkg lxml
+pip install transforms3d empy==3.3.4 pyyaml defusedxml catkin_pkg rospkg lxml pyassimp==3.3
 ```
 
 
