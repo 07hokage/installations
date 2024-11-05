@@ -138,5 +138,9 @@ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
 
 ## 6. **Known Issues:**
-AttributeError: module 'em' has no attribute 'RAW_OPT': [solution](https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1519#issuecomment-2124599093)
+**AttributeError**: module 'em' has no attribute 'RAW_OPT': [solution](https://github.com/ros-simulation/gazebo_ros_pkgs/issues/1519#issuecomment-2124599093)
 
+**CV Bridge Libffi error:** requires python 3.8 version. 
+```
+conda install libffi==3.3
+```
