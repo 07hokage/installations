@@ -144,3 +144,8 @@ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
 conda install libffi==3.3
 ```
+
+**conda package installation interrupt**: If you interrupt a conda package isntallation, adn when you try to run again, you get an error, remove the cached/incomplete packages
+```
+conda clean --all
+```
